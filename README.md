@@ -1,8 +1,6 @@
-# EVALUATE: HTML & CSS
+# Correct The HTML - Responsive Edition
 
-## Web Development Evaluation 001
-
-This repository contains the files and instructions for completing Web Development Evaluation 001. Follow the steps below to fork and then clone the repository and get started.
+This repository contains the files and instructions for completing Correct The HTML - Responsive Edition. Follow the steps below to fork and then clone the repository and get started.
 
 ### Prerequisites
 
@@ -39,4 +37,4 @@ Please refer to `mockup.jpg` in the repository.
 
 ### Submitting Your Work
 
-After completing the task, be sure to commit your changes and push them back to your own forked repository and turn in the GitHub link in Google Classroom.
+After completing the task, be sure to commit your changes and push them back to your own forked repository and turn in the GitHub link in OpenClass.
