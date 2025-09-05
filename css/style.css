@@ -167,42 +167,34 @@ hr {
 	text-align: center;
 }
 
-@media (min-width: 800px) {
-	.bodyGridContainer {
-	display: grid; 
-	grid-template-areas: 
-	"header header"
-	"main-article main-sidebar"
-	"footer footer"
-	;
-	grid-template-columns: auto auto;
-	grid-template-rows: 32vh auto 20vh;
-}
-
-	.header {
-	grid-area: header;
-	}
+@media only screen and (min-width: 675px) {
 
 	.header_pub-info {
+		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
-		align-items: center;
-		}
-
-	.main-article {
-		width: 45%;
-		border-radius: 0.6rem;
-		margin: 0;
-	grid-area: main-article; 
 	}
 
-	.main-sidebar {
-		width: 30%;
-		border-radius: 0.6rem;
-		margin: 0;
-		grid-area: main-sidebar;
-	}
-	.footer {
-	grid-area: footer; 
-	}
+  .gridContainer {
+    display: grid;
+    grid-template-areas: "mainArticle mainSidebar";
+    grid-template-columns: 60% 1fr; 
+    grid-template-rows: auto; 
+	width: 100%; 
+    gap: 3%; 
+  }
+
+  .main-article {
+    grid-area: mainArticle;
+    max-width: none; 
+    border-radius: 0.6rem;
+    margin: 0;
+  }
+
+  .main-sidebar {
+    grid-area: mainSidebar;
+    max-width: none; 
+    border-radius: 0.6rem;
+    margin: 0;
+  }
 }
